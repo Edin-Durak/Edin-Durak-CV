@@ -68,7 +68,7 @@ The CV is optimized for A4 printing using the following CSS techniques:
 ### How the Language Switch Works
 - The project contains two separate HTML files:
   - `index.html` (for English).
-  - `index-bs.html` (for Bosnian).
+  - `bosnian-version.html` (for Bosnian).
 - Both versions share the same design and structure but contain text in different languages.
 - The user can toggle between the two language versions via the links at the top, which are hidden when printing to avoid clutter.
 
