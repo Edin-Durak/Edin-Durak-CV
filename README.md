@@ -93,7 +93,7 @@ Here’s an overview of the repository's structure:
 
 ### Key Files:
 - `index.html`: The default English version of the CV.
-- `index-bs.html`: The Bosnian version of the CV.
+- `bosnian-version.htmll`: The Bosnian version of the CV.
 - `styles.css`: Shared stylesheet for both CVs, handling layout and responsive behavior.
 - `README.md`: This file, explaining the project's purpose and how to use it.
 
