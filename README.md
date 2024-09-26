@@ -1,6 +1,6 @@
 # Edin Durak - Frontend Developer CV
 
-Welcome to my CV repository! This project highlights my skills and experience as a frontend developer. The CV is built using **HTML**, **CSS**, and **vanilla JavaScript**, featuring both **English** and **Bosnian** versions. The layout is responsive and print-ready for **A4 format (794px)**.
+Welcome to my CV repository! This project highlights my skills and experience as a frontend developer. The CV is built using **HTML** and **CSS**, featuring both **English** and **Bosnian** versions. The layout is responsive and print-ready for **A4 format (794px)**.
 
 ## Features
 - **Two Language Versions**: You can switch between **English (default)** and **Bosnian** using the links provided at the top of the page. These links are hidden in the print layout to ensure a clean output.
@@ -22,40 +22,32 @@ The language selection links are automatically hidden when printing, ensuring a 
 
 ---
 
-## How the CV Was Built
+### How the CV Was Built
 
-### Layout Modification for A4 Printing (794px)
-The CV is optimized for A4 printing using the following CSS techniques:
-- **Media Queries for Print**: Specific media queries adjust the layout when printing. The layout is constrained to a maximum width of **794px**, ensuring it fits perfectly on an A4 page.
-  
-  ```css
-  @media print {
-    body {
-      width: 794px;
-      margin: 0 auto;
-    }
+#### Layout Modification for A4 Printing (794px)
 
-    .language-selector {
-      display: none;
-    }
+One of the key features of this CV is that it's optimized for A4 printing. A4 pages in CSS terms have a width of approximately **794px**. Here's how I adapted the layout for both screen display and A4 print:
 
-    .no-print {
-      display: none;
-    }
+- **Chrome Inspect Tool for Layout Design**:  
+  Instead of relying heavily on media queries, I used the **Chrome Inspect Tool** to manually adjust my layout for a 794px screen width. This approach allowed me to simulate an A4 page layout directly in the browser and fine-tune margins, padding, and font sizes to ensure everything fits neatly when printed.
+
+- **Hiding Elements for Print (Language Selector)**:  
+  To avoid printing unnecessary elements, such as the language selector, I used a simple media query to hide specific sections of the CV during printing. This ensures a clean, professional printout without extraneous content.
+
+```css
+/* Hide language selector when printing */
+@media print {
+  .language-selector {
+    display: none;
   }
-  ```
+}
+```
 
-- **Page Breaks**: Used CSS properties to control page breaks, ensuring content does not split awkwardly across pages when printed.
+- **Typography and Margins for Print**:  
+  Font sizes, line heights, and overall margins were adjusted based on the 794px width to ensure readability and proper spacing. The layout was crafted to prevent awkward line breaks and maintain consistency when printed.
 
-  ```css
-  @media print {
-    .section {
-      page-break-inside: avoid;
-    }
-  }
-  ```
-
-- **Font Sizes and Margins**: Optimized typography and margins for print readability.
+- **Page Breaks for Consistent Layout Across Multiple Pages**:  
+  Although I didn't include specific CSS for page breaks in this version, the layout naturally avoids breaking sections awkwardly across pages by maintaining control over section sizes and content placement.
 
 ---
 
