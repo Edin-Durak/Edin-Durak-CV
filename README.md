@@ -5,7 +5,6 @@ Welcome to my CV repository! This project highlights my skills and experience as
 ## Features
 - **Two Language Versions**: You can switch between **English (default)** and **Bosnian** using the links provided at the top of the page. These links are hidden in the print layout to ensure a clean output.
 - **A4 Print-Ready Layout**: The layout has been optimized for printing in **A4 format (794px width)**. Media queries adjust the layout for a perfect printout, with unnecessary elements hidden.
-- **Responsive Design**: The design adapts seamlessly to desktop and mobile devices. For printing, the layout shifts to A4 dimensions with proper margins and formatting.
 
 ## View the CV
 To view the CV in your preferred language, use the following links:
