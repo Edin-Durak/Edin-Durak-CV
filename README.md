@@ -52,7 +52,6 @@ One of the key features of this CV is that it's optimized for A4 printing. A4 pa
 
 ### Project Details
 - **HTML5 and CSS3**: The CV structure is built with semantic HTML5 and styled using CSS3. No JavaScript frameworks were used, keeping it lightweight and simple.
-- **Mobile-First Approach**: The CV was designed with a mobile-first approach and adapts smoothly to different screen sizes.
 - **Google Fonts and FontAwesome**: The CV uses the `Open Sans` font from Google Fonts for a clean, professional look, and icons from FontAwesome for visual enhancement.
 - **Follows Best Coding Practices**: The project follows a clean, maintainable structure with comments and separation of concerns.
 
